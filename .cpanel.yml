@@ -1,0 +1,5 @@
+---
+deployment:
+      tasks:
+        - export DEPLOYPATH=/home/u4246059/public_html/qurban
+        - /bin/cp -r * $DEPLOYPATH
